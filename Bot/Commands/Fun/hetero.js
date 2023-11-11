@@ -1,7 +1,6 @@
-import { Client, GatewayIntentBits, Message, REST, Routes } from 'discord.js';
 import 'dotenv/config';
 
-function slashHetero(client){
+export function slashHetero(client){
     client.on('interactionCreate', async interaction => {
         if (!interaction.isChatInputCommand()) return;
       
@@ -13,8 +12,5 @@ function slashHetero(client){
         }
     });
 }
-
-
-export const fun = { slashHetero }
 
   
