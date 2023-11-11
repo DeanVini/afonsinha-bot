@@ -2,6 +2,7 @@
   "type": "module",
   "dependencies": {
     "custom-env": "^2.0.2",
+    "discord-player": "^6.6.6",
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1"
   }
