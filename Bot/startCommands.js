@@ -5,7 +5,9 @@ const { TOKEN, CLIENT_ID, GUILD_ID } = process.env
 
 
 export function startCommands(client){
-  command.slashHetero(client)
+  command.slashHetero(client);
+  command.slashAnthony(client)
+
 }
 
 

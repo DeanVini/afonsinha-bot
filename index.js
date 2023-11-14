@@ -10,9 +10,13 @@ const commands = [
       name: 'hetero',
       description: 'Quanto que sou hétero',
     },
+    {
+      name: 'anthony',
+      description: 'Um comando p uma pessoa horrível'
+    }
   ];
   
-const rest = new REST({ version: '10' }).setToken('MTE3MjY3MjE4MDMwODQzMDkwMg.Gt1s_1.X0Xwg6IfoX9PRTx63N5njFLRfLQdwFbVmGV7lo');
+const rest = new REST({ version: '10' }).setToken('MTE3MjY3MjE4MDMwODQzMDkwMg.Gd2kDt.V6tCOaZP0_ebtNutX2UUVYeedHdA3n_8xZGtSY');
 
 try {
     console.log('Started refreshing application (/) commands.');
@@ -29,4 +33,4 @@ try {
 
 startCommands(client)
 
-client.login('MTE3MjY3MjE4MDMwODQzMDkwMg.Gt1s_1.X0Xwg6IfoX9PRTx63N5njFLRfLQdwFbVmGV7lo');
+client.login('MTE3MjY3MjE4MDMwODQzMDkwMg.Gd2kDt.V6tCOaZP0_ebtNutX2UUVYeedHdA3n_8xZGtSY');

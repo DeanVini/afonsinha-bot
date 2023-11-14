@@ -8,7 +8,7 @@ export function slashHetero(client){
             console.log('entrou')
             const porcentagemHetero = Math.floor(Math.random() * 101);
             console.log(interaction.user.globalName)
-            await interaction.reply(`${interaction.user.globalName} é ${porcentagemHetero}% hetero!! ${porcentagemHetero > 50 ? ":muscle:" : ":deer:"}`);
+            await interaction.reply(`${interaction.user.globalName} é ${porcentagemHetero}% hétero!! ${porcentagemHetero > 50 ? ":muscle:" : ":deer:"}`);
         }
     });
 }
